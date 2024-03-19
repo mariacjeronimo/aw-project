@@ -14,7 +14,7 @@ micro-frontend
 ## Title
 DetalhesProduto
 ## Context and Responsibility
-This microfrontend consolidates the button that opens the QR code reader, the pop-up that shows once the QR code is successfully read, the Details section on the product's page, the button to expand details, and all the expanded details as well as the nutritional information.
+This microfrontend consolidates the button that opens the QR code reader, the pop-up that shows once the QR code is successfully read, the product's page photo, name, and price components, the Details section on the product's page, the button to expand details, and all the expanded details as well as the nutritional information.
 ## Decisions
 Even though the components of this microfrontend are spread out across multiple pages, we considered that all of this information is related and should be managed by the same team. This decision aligns with the principle of Single Responsibility, ensuring that the DetalhesProduto microfrontend is focused solely on product detail-related functionalities. 
 ## Consequences
